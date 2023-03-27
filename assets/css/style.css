@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    background-color: #D7D2CB;
+    box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    color: #FFF;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    font-family: LinkinPark;
+    height: 150px;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: LinkinPark;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: LinkinPark;
+    src: url('../font/LinkinPark.ttf');
+}
+
+@font-face {
+    font-family: Linkin;
+    src: url('../font/linkin.ttf');
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    font-family: LinkinPark;
+}
+
+.logo_img {
+    height: 75px;
+    width: 75px;
+    filter: invert(100%);
+}
+
+.main_img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main_container img {
+    margin-left: 50px;
+    border-radius: 7.5%;
+}
+
+section {
+    flex-direction: column;
+}
+
+.main_descriptions {
+    display: flex;
+    color: #FFF;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.description_1 {
+    padding: 20px;
+    color: #2F466D;
+}
+
+.description_2 {
+    padding: 20px;
+    color: #362C58;
+}
+
+.description_3 {
+    padding: 20px;
+    color: #311F36;
+}
+
+.description_4 {
+    padding: 20px;
+    color: #352942;
+}
+
+.description_5 {
+    padding: 20px;
+    color: #381F3E;
+}
+
+.sub_container {
+    margin-top: 100px;
+    display: flex;
+}
+
+.sub_container_text {
+    flex: 1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #2F466D;
+    font-weight: bolder;
+}
+
+.sub_container_memorial {
+    margin-bottom: 50px;
+}
+
+.sub_container_text_2 {
+    color: #362C58;
+}
+
+.sub_container_text_3 {
+    color: #311F36;
+}
+
+.sub_container_text_4 {
+    color: #352942;
+}
+
+.sub_container_text_5 {
+    color: #381F3E;
+}
+
+.sub_container_text_memorial {
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.sub_container img:not(.ignoreCss) {
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 6.25%;
+}
+
+.album-pack {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.album-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: LinkinPark;
+    margin-bottom: 30px;
+}
+
+.album-desc img {
+    margin-bottom: 20px;
+    border-radius: 12.5%;
+}
+
+footer {
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #000;
+    padding: 25px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
